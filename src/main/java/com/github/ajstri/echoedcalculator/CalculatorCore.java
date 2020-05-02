@@ -25,9 +25,10 @@ package com.github.ajstri.echoedcalculator;
  *
  * @version 1.0-SNAPSHOT
  */
-public class Main {
+public class CalculatorCore {
 
     public static void main(String[] args) {
         // There's nothing here...
     }
+
 }
