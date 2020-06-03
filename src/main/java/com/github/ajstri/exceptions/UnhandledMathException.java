@@ -13,4 +13,10 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.github.ajstri;
+package com.github.ajstri.exceptions;
+
+public class UnhandledMathException extends Exception {
+    public UnhandledMathException(String errorMessage) {
+        super(errorMessage);
+    }
+}
