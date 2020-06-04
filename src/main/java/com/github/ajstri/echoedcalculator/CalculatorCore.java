@@ -31,8 +31,11 @@ public class CalculatorCore {
     private static final InternalLogging logging = new InternalLogging();
     private static final MathUtilities mathUtils = new MathUtilities();
 
+    private static final CalculatorGUI GUI = new CalculatorGUI();
+
     public static void main(String[] args) {
         // There's nothing here...
+        GUI.initialize();
     }
 
     /**
